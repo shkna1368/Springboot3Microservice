@@ -1,0 +1,8 @@
+Replace  javax with jakarta in import in all class
+Change swagger dependecy
+Add swagger config in application.yml
+Change swagger anotation     @ApiModelProperty to @Schema 
+Add dependency spring-boot-starter-validation
+Refactore RestExceptionHandler class
+All repository extends ListCrudRepository<Family, Long> beside PagingAndSortingRepository
+
